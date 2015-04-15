@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>rdal.es/link</title>
+		<meta charset='utf-8'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-Language" content="en">
+		<link rel="shortcut icon" href="http://robertdalesmith.com/favicon.ico">
+		
+		<!-- Additional Libraries -->
+		<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+		<!-- Project Style -->
+		<link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+
+		<!-- Project Script -->
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+
+		<div id="main_wrapper">
+
+			<span id="url_wrapper">
+				<div class="input-group">
+					<span class="input-group-addon" id="basic-addon-http">http://</span>
+					<input id="url_input" type="text" class="form-control" placeholder="www.robertdalesmith.com/" aria-describedby="basic-addon-http">
+				</div>
+			</span>
+
+			<span id="domain_wrapper">
+				<div class="input-group">
+					<div class="dropdown">
+						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-expanded="true" domain-value="rdal.es">
+							<span id="domain_label">rdal.es</span>
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+							<li role="presentation" class="menuitem" domain-value="rdal.es"><a role="menuitem" tabindex="-1">rdal.es</a></li>
+							<li role="presentation" class="menuitem" domain-value="bit.ly"><a role="menuitem" tabindex="-2">bit.ly</a></li>
+							<li role="presentation" class="menuitem" domain-value="j.mp"><a role="menuitem" tabindex="-3">j.mp</a></li>
+						</ul>
+					</div>
+				</div>
+			</span>
+
+			<span id="submit_wrapper"><button type="button" class="btn btn-success" id="submit_button">Shorten</button></span>
+
+			<span id="results_wrapper"></span>
+			
+		</div>
+
+	</body>
+</html>

@@ -1,0 +1,48 @@
+html{
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+body{
+	text-align: center;	
+}
+
+a{
+	cursor: pointer;
+}
+
+#main_wrapper{
+	display: inline-block;
+	position: relative;
+
+	height: auto; width: 490px;
+
+	padding: 15% 0 0 0;
+}
+
+#url_wrapper{
+	display: inline-block;
+	position: relative;
+	width: 300px; height: 34px;
+}
+
+#domain_wrapper{
+	display: inline-block;
+	position: relative;
+	width: auto; height: 34px;
+	margin-left: 8px;
+}
+
+#submit_wrapper{
+	display: inline-block;
+	position: relative;
+	width: auto; height: 34px;
+	top:-13px;
+	margin-left: 12px;
+}
+
+#dropdownMenu{
+	width: auto;
+	min-width: 85px;
+	text-align: right;
+}
